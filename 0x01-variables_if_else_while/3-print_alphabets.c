@@ -3,7 +3,7 @@
 /**
  * main - Prints the alphabetic in lower and upper case
  *
- * Return: Always (Success)
+ * Return: Always (success)
  */
 int main(void)
 {
@@ -13,12 +13,12 @@ int main(void)
 	{
 		putchar(c);
 	}
-	
+
 	for (c = 'A'; c <= 'Z'; c++)
 	{
 		putchar(c);
 	}
-	
+
 	putchar('\n');
 
 	return (0);
