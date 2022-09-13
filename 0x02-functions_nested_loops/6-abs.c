@@ -5,7 +5,7 @@
  *
  * @n: n is an integer
  *
- * Return Always 0 (success)
+ * Return Always 0 (success) absolute value of a number
  */
 int _abs(int n)
 {
