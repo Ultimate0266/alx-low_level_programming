@@ -18,6 +18,10 @@ int main(void)
 		{
 			printf("%ld, ", j);
 		}
+		else
+		{
+			printf("%ld, ", j);
+		}
 		next = j + k;
 		j = k;
 		k = next;
