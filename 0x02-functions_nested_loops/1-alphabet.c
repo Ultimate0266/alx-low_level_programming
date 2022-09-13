@@ -4,6 +4,7 @@
  *print_alphabet - Alphabet in lowercase
  *
  * Return: Always 0 (success)
+ *
  */
 void print_alphabet(void)
 {
@@ -14,6 +15,4 @@ void print_alphabet(void)
 		_putchar(r);
 	}
 	_putchar('\n');
-
-	return (0);
 }
