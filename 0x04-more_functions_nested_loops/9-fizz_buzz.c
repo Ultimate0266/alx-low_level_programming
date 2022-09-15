@@ -1,4 +1,4 @@
-#include "mian.h"
+#include "main.h"
 
 /**
  * main - print numbers 1 - 100 followed by a new line
