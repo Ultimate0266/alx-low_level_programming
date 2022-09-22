@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- * *_strncat - function that concatenates two strings
- * Copies at most an inputted number
+ * *_strncat - Copies at most an inputted number
  * of bytes from string src into dest.
  * @dest: The buffer storing the string copy.
  * @src: The source string.
