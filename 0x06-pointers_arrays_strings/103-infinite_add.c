@@ -25,14 +25,14 @@ char *add_strings(char *n1, char *n2, char *r, int r_index)
 		*(r + r_index) = (num % 10) + '0';
 		tens = num / 10;
 	}
-	
+
 	for (; *n1; n1--, r_index--)
 	{
 		num = (*n1 - '0') + tens;
 		*(r + r_index) = (num % 10) + '0';
 		tens = num / 10;
 	}
-	
+
 	for (; *n2; n2--, r_index--)
 	{
 		num = (*n2 - '0') + tens;
@@ -44,7 +44,7 @@ char *add_strings(char *n1, char *n2, char *r, int r_index)
 		*(r + r_index) = (tens % 10) + '0';
 		return (r + r_index);
 	}
-	
+
 	else if (tens && r_index < 0)
 		return (0);
 
