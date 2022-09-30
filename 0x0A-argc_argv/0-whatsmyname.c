@@ -1,9 +1,5 @@
-/**
- * File: 0-whatsmyname.c
- * Auth: Gedeon Obae Gekonge
- */
-
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - Prints the program name, followed by a new line.
