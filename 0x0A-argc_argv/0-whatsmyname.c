@@ -1,6 +1,6 @@
 /**
  * File: 0-whatsmyname.c
- * Auth: Gedeon Obae Gekonge
+ * Auth: Saefullah Sadiq
  */
 
 #include <stdio.h>
