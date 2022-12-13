@@ -1,1 +1,1 @@
-This is about dynamic library in C programming
+*This is about dynamic library in C programming*
